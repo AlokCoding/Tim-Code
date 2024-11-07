@@ -73,7 +73,7 @@
 .packages .card{
     border-radius: 5ps;
     border: none;
-    box-shadow: rgba(0,0,0.1) 0px 4px 12px;
+    box-shadow: rgba(0,0,0.1) 0px 1px 2px;
 }
 .packages .card img{
     border-radius: 5px;
@@ -112,7 +112,7 @@
 }
 .gallary .card{
     border-radius: 10px;
-    box-shadow: rgba(0,0,0.1) 0px 4px 12px;
+    box-shadow: rgba(0,0,0.1) 0px 1px 2px  ;
     cursor: pointer;
 }
 .gallary .card img{
