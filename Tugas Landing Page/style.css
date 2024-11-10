@@ -114,3 +114,177 @@
     font-weight: 500;
 }
 About End */
+
+
+
+/* Contact */
+.contact .info-wrap {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 30px;
+    height: 100%;
+  }
+  
+  @media (max-width: 575px) {
+    .contact .info-wrap {
+      padding: 20px;
+    }
+  }
+  
+  .contact .info-item {
+    margin-bottom: 40px;
+  }
+  
+  .contact .info-item i {
+    font-size: 20px;
+    color: black;
+    background: color-mix(in srgb, black, transparent 92%);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+  }
+  
+  .contact .info-item h3 {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  .contact .info-item:hover i {
+    background: black;
+    color: #ffffff;
+  }
+  
+  .contact .php-email-form {
+    background-color: #ffffff;
+    height: 100%;
+    padding: 30px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 575px) {
+    .contact .php-email-form {
+      padding: 20px;
+    }
+  }
+  
+  .contact .php-email-form input[type=text],
+  .contact .php-email-form input[type=email],
+  .contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: #444444;
+    background-color: color-mix(in srgb, #ffffff, transparent 50%);
+    border-color: color-mix(in srgb, #444444, transparent 80%);
+  }
+  
+  .contact .php-email-form input[type=text]:focus,
+  .contact .php-email-form input[type=email]:focus,
+  .contact .php-email-form textarea:focus {
+    border-color: black;
+  }
+  
+  .contact .php-email-form input[type=text]::placeholder,
+  .contact .php-email-form input[type=email]::placeholder,
+  .contact .php-email-form textarea::placeholder {
+    color: color-mix(in srgb, #444444, transparent 70%);
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    color: #ffffff;
+    background: black;
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+    background: color-mix(in srgb, black, transparent 25%);
+  }
+
+  /*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: black;
+  background-color: #ffffff;
+  padding: 60px 0;
+  scroll-margin-top: 88px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 1px;
+  background: color-mix(in srgb, #444444, transparent 60%);
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  margin: auto;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
