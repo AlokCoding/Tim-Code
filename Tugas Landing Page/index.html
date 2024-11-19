@@ -1,79 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ASHOE</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <script src="script.js" defer></script>
-
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark" id="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="asset/logo.png" alt="" width="65" height="50"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Produk</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav
+      class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="asset/logo.png" alt="" width="65" height="50"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+      </div>
+    </nav>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      tabindex="0"
+    >
       <!-- Home -->
       <div class="home" id="home">
         <div class="content">
           <h5>Welcome To ASHOE</h5>
-          <h1>Find the Best Shoes for You!</h1><br>
-          <a href="#about">TELL ME MORE</a>
+          <h1>Find the Best Shoes for You!</h1>
+          <br />
+          <a href="#about" class="hme-button">TELL ME MORE</a>
         </div>
       </div>
 
       <!-- About -->
-      <section class="p-5" id="about">
-        <div class="container py-5">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-md">
-              <a href="#"><img src="asset/logo1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="col-md">
-              <div class="main-txt">
-                <h1>About Us</h1>
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5">
+              <div class="about-image-wrapper">
+                <div class="about-image">
+                  <img src="asset/logo12.jpg" alt="About ASHOE" />
+                </div>
               </div>
-              <p>Ashoe adalah merek sepatu yang didirikan dengan misi untuk memberikan kenyamanan, gaya, dan kualitas terbaik kepada setiap pelanggan kami. Kami memahami bahwa sepatu bukan hanya sekadar pelengkap penampilan, tetapi juga bagian penting dalam keseharian yang mempengaruhi kenyamanan, performa, dan kepercayaan diri.
+            </div>
 
-              Sejak awal berdiri, kami berkomitmen untuk menggunakan bahan-bahan berkualitas tinggi, teknologi terkini, dan desain yang stylish. Setiap pasang sepatu Ashoe diproduksi dengan perhatian mendalam terhadap detail, sehingga menghasilkan produk yang tahan lama dan nyaman dipakai sepanjang hari.</p>
+            <div class="col-lg-6">
+              <div class="about-content">
+                <div class="section-title">
+                  <span>About Us</span>
+                  <h2>Inovasi dalam Setiap Langkah</h2>
+                </div>
 
-              <p>Kami menyediakan berbagai jenis sepatu, mulai dari sepatu olahraga, casual, hingga formal yang dirancang untuk berbagai kegiatan dan suasana. Dengan desain yang modern dan berkelas, sepatu Ashoe cocok untuk Anda yang mengutamakan kualitas tanpa mengorbankan gaya.
-                
-              Ashoe percaya bahwa setiap langkah membawa arti. Kami di sini untuk mendukung Anda melangkah lebih jauh, meraih mimpi, dan menjalani aktivitas dengan sepatu yang nyaman dan penuh gaya.</p>
-              <a href="#" class="btn btn-primary mt-3">Lihat Selengkapnya</a>
+                <p class="mb-4">
+                  ASHOE menghadirkan perpaduan sempurna antara kenyamanan, gaya,
+                  dan teknologi modern dalam setiap pasang sepatu. Kami
+                  berkomitmen untuk memberikan pengalaman terbaik bagi setiap
+                  langkah Anda.
+                </p>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="feature-card">
+                      <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                      </div>
+                      <h4 class="feature-title">Kualitas Premium</h4>
+                      <p class="feature-text">
+                        Material terbaik dengan standar kualitas internasional
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-card">
+                      <div class="feature-icon">
+                        <i class="fas fa-tshirt"></i>
+                      </div>
+                      <h4 class="feature-title">Desain Stylish</h4>
+                      <p class="feature-text">
+                        Mengikuti tren fashion global terkini
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-card">
+                      <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <h4 class="feature-title">Kenyamanan</h4>
+                      <p class="feature-text">
+                        Teknologi cushioning untuk langkah nyaman
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-card">
+                      <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h4 class="feature-title">Garansi</h4>
+                      <p class="feature-text">
+                        Jaminan kualitas selama 1 tahun penuh
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#services" class="cta-button"> Explore Collection </a>
+              </div>
             </div>
           </div>
         </div>
@@ -82,334 +171,270 @@
       <!-- Services -->
       <section class="packages" id="services">
         <div data-name="c-s" class="">
-        <div class="container">
-          <div class="main-txt">
-            <h1>Produk</h1>
-          </div>
-          <div class="icon-cart">
-            <i class="bi bi-cart3 position-absolute top-0 end-0"></i>
-            <span>0</span>
-          </div>
-          <div class="product-container">
+          <div class="container">
+            <div class="main-txt">
+              <h2>Produk</h2>
+            </div>
+            <div class="icon-cart">
+              <i class="bi bi-cart3 position-absolute top-0 end-0"></i>
+              <span>0</span>
+            </div>
+            <div class="product-container">
+              <div class="row" style="margin-top: 80px">
+                <div class="col-md-4 py-3 py-md-0">
+                  <div class="card" data-name="p-1">
+                    <img src="asset/gambar1.jpg" alt="" />
+                    <div class="card-body">
+                      <h3 class="card-title">Produk 1</h3>
+                      <h6>Price <strong>500K</strong></h6>
+                      <div class="d-grid gap-2 col-6 mx-auto" data-name="1">
+                        <a class="btn btn-success" data-role="buy-now"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-          <div class="row" style="margin-top: 80px;">
-            
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card" data-name="p-1">
-                <img src="asset/gambar1.jpg" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">Produk 1</h3>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste!</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                  </div> -->
-                  <h6>Price <strong>500K</strong></h6>
-                  <div class="d-grid gap-2 col-6 mx-auto" data-name="1">
-                    <a class=" btn btn-success" data-role="buy-now">Buy Now</a>
+                <div class="col-md-4 py-3 py-md-0">
+                  <div class="card" data-name="p-2">
+                    <img src="asset/gambar4.jpg" alt="" />
+                    <div class="card-body">
+                      <h3 class="card-title">Produk 2</h3>
+                      <h6>Price <strong>500K</strong></h6>
+                      <div class="d-grid gap-2 col-6 mx-auto" data-name="2">
+                        <a class="btn btn-success" data-role="buy-now"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card" data-name="p-2">
-                <img src="asset/gambar4.jpg" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">Produk 2</h3>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste!</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                  </div> -->
-                  <h6>Price <strong>500K</strong></h6>
-                  <div class="d-grid gap-2 col-6 mx-auto" data-name="2">
-                    <a class=" btn btn-success" data-role="buy-now">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card" data-name="p-3">
-                <img src="asset/gambar5.jpg" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">Produk 3</h3>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste!</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                  </div> -->
-                  <h6>Price <strong>500K</strong></h6>
-                  <div class="d-grid gap-2 col-6 mx-auto" data-name="3">
-                    <a class=" btn btn-success" data-role="buy-now">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="row" style="margin-top: 30px;">
-            
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card" data-name="p-4">
-                <img src="asset/gambar6.jpg" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">Produk 4</h3>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste!</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                  </div> -->
-                  <h6>Price <strong>500K</strong></h6>
-                  <div class="d-grid gap-2 col-6 mx-auto" data-name="4">
-                    <a class=" btn btn-success" data-role="buy-now">Buy Now</a>
+                <div class="col-md-4 py-3 py-md-0">
+                  <div class="card" data-name="p-3">
+                    <img src="asset/gambar5.jpg" alt="" />
+                    <div class="card-body">
+                      <h3 class="card-title">Produk 3</h3>
+                      <h6>Price <strong>500K</strong></h6>
+                      <div class="d-grid gap-2 col-6 mx-auto" data-name="3">
+                        <a class="btn btn-success" data-role="buy-now"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card" data-name="p-5">
-                <img src="asset/gambar7.jpg" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">Produk 5</h3>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste!</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                  </div> -->
-                  <h6>Price <strong>500K</strong></h6>
-                  <div class="d-grid gap-2 col-6 mx-auto" data-name="5">
-                    <a class=" btn btn-success" data-role="buy-now">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-md-4 py-3 py-md-0">
-              <div class="card" data-name="p-6">
-                <img src="asset/gambar8.jpg" alt="">
-                <div class="card-body">
-                  <h3 class="card-title">Produk 6</h3>
-                  <!-- <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste!</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
-                  </div> -->
-                  <h6>Price <strong>500K</strong></h6>
-                  <div class="d-grid gap-2 col-6 mx-auto" data-name="6">
-                    <a class=" btn btn-success" data-role="buy-now">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            
+              <div class="row" style="margin-top: 30px">
+                <div class="col-md-4 py-3 py-md-0">
+                  <div class="card" data-name="p-4">
+                    <img src="asset/gambar6.jpg" alt="" />
+                    <div class="card-body">
+                      <h3 class="card-title">Produk 4</h3>
+                      <h6>Price <strong>500K</strong></h6>
+                      <div class="d-grid gap-2 col-6 mx-auto" data-name="4">
+                        <a class="btn btn-success" data-role="buy-now"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-md-4 py-3 py-md-0">
+                  <div class="card" data-name="p-5">
+                    <img src="asset/gambar7.jpg" alt="" />
+                    <div class="card-body">
+                      <h3 class="card-title">Produk 5</h3>
+                      <h6>Price <strong>500K</strong></h6>
+                      <div class="d-grid gap-2 col-6 mx-auto" data-name="5">
+                        <a class="btn btn-success" data-role="buy-now"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                  <div class="card" data-name="p-6">
+                    <img
+                      src="asset/paul-gaudriault-a-QH9MAAVNI-unsplash (1) (1).jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h3 class="card-title">Sneaker</h3>
+                      <h6>Price <strong>799K</strong></h6>
+                      <div class="d-grid gap-2 col-6 mx-auto" data-name="6">
+                        <a class="btn btn-success" data-role="buy-now"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          
+          <div class="product-preview">
+            <div class="preview" data-target="p-1">
+              <i class="fa fa-times"></i>
+              <img src="asset/sepatu1.png" alt="" />
+              <h3>Product 1</h3>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+                <span>( 250 )</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur pariatur eligendi asperiores sit quod accusantium
+                officiis saepe ducimus culpa impedit?
+              </p>
+              <div class="price">500K</div>
+            </div>
+
+            <div class="preview" data-target="p-2">
+              <i class="fa fa-times"></i>
+              <img src="asset/gambar1.jpg" alt="" />
+              <h3>Product 1</h3>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+                <span>( 250 )</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur pariatur eligendi asperiores sit quod accusantium
+                officiis saepe ducimus culpa impedit?
+              </p>
+              <div class="price">500K</div>
+            </div>
+
+            <div class="preview" data-target="p-3">
+              <i class="fa fa-times"></i>
+              <img src="asset/gambar1.jpg" alt="" />
+              <h3>Product 1</h3>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+                <span>( 250 )</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur pariatur eligendi asperiores sit quod accusantium
+                officiis saepe ducimus culpa impedit?
+              </p>
+              <div class="price">500K</div>
+            </div>
+
+            <div class="preview" data-target="p-4">
+              <i class="fa fa-times"></i>
+              <img src="asset/gambar1.jpg" alt="" />
+              <h3>Product 1</h3>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+                <span>( 250 )</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur pariatur eligendi asperiores sit quod accusantium
+                officiis saepe ducimus culpa impedit?
+              </p>
+              <div class="price">500K</div>
+            </div>
+
+            <div class="preview" data-target="p-5">
+              <i class="fa fa-times"></i>
+              <img src="asset/gambar1.jpg" alt="" />
+              <h3>Product 1</h3>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+                <span>( 250 )</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur pariatur eligendi asperiores sit quod accusantium
+                officiis saepe ducimus culpa impedit?
+              </p>
+              <div class="price">500K</div>
+            </div>
+
+            <div class="preview" data-target="p-6">
+              <i class="fa fa-times"></i>
+              <img src="asset/sepatu1.png" alt="" />
+              <h3>Product 1</h3>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-alt"></i>
+                <span>( 250 )</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur pariatur eligendi asperiores sit quod accusantium
+                officiis saepe ducimus culpa impedit?
+              </p>
+              <div class="price">500K</div>
+            </div>
+          </div>
+
+          <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+              <div class="item"></div>
+            </div>
+            <div class="btn">
+              <button class="close">Close</button>
+              <button class="checkOut">Check Out</button>
+            </div>
           </div>
         </div>
-
-        <div class="product-preview">
-
-          <div class="preview" data-target="p-1">
-            <i class="fa fa-times"></i>
-            <img src="asset/sepatu1.png" alt="">
-            <h3>Product 1</h3>
-            <div class="star">
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star-half-alt"></i>
-              <span>( 250 )</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur pariatur eligendi asperiores sit quod accusantium officiis saepe ducimus culpa impedit?</p>
-            <div class="price">500K</div>
-          </div>
-
-          <div class="preview" data-target="p-2">
-            <i class="fa fa-times"></i>
-            <img src="asset/gambar1.jpg" alt="">
-            <h3>Product 1</h3>
-            <div class="star">
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star-half-alt"></i>
-              <span>( 250 )</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur pariatur eligendi asperiores sit quod accusantium officiis saepe ducimus culpa impedit?</p>
-            <div class="price">500K</div>
-          </div>
-
-          <div class="preview" data-target="p-3">
-            <i class="fa fa-times"></i>
-            <img src="asset/gambar1.jpg" alt="">
-            <h3>Product 1</h3>
-            <div class="star">
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star-half-alt"></i>
-              <span>( 250 )</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur pariatur eligendi asperiores sit quod accusantium officiis saepe ducimus culpa impedit?</p>
-            <div class="price">500K</div>
-          </div>
-
-          <div class="preview" data-target="p-4">
-            <i class="fa fa-times"></i>
-            <img src="asset/gambar1.jpg" alt="">
-            <h3>Product 1</h3>
-            <div class="star">
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star-half-alt"></i>
-              <span>( 250 )</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur pariatur eligendi asperiores sit quod accusantium officiis saepe ducimus culpa impedit?</p>
-            <div class="price">500K</div>
-          </div>
-
-          <div class="preview" data-target="p-5">
-            <i class="fa fa-times"></i>
-            <img src="asset/gambar1.jpg" alt="">
-            <h3>Product 1</h3>
-            <div class="star">
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star-half-alt"></i>
-              <span>( 250 )</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur pariatur eligendi asperiores sit quod accusantium officiis saepe ducimus culpa impedit?</p>
-            <div class="price">500K</div>
-          </div>
-
-          <div class="preview" data-target="p-6">
-            <i class="fa fa-times"></i>
-            <img src="asset/sepatu1.png" alt="">
-            <h3>Product 1</h3>
-            <div class="star">
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star checked"></i>
-              <i class="fa-solid fa-star-half-alt"></i>
-              <span>( 250 )</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur pariatur eligendi asperiores sit quod accusantium officiis saepe ducimus culpa impedit?</p>
-            <div class="price">500K</div>
-          </div>
-
-        </div>
-
-        <div class="cartTab">
-          <h1>Shopping Cart</h1>
-          <div class="listCart">
-            <div class="item">
-              <div class="image">
-                <img src="asset/gambar1.jpg" alt="">
-              </div>
-              <div class="name">
-                Name
-              </div>
-              <div class="totalPrice">
-                500K
-              </div>
-              <div class="quantity">
-                <span class="minus"><</span>
-                <span>1</span>
-                <span class="plus">></span>
-              </div>
-            </div>
-          </div>
-          <div class="btn">
-            <button class="close">Close</button>
-            <button class="checkOut">Check Out</button>
-          </div>
-        </div>
-      </div>
       </section>
 
-      <!-- <section class="p-5" id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15778.223277672825!2d115.16809151738279!3d-8.638568300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238b0b8fe2c09%3A0xb2a8b4bb97b57214!2sTeman%20Baik%20Self%20Storage!5e0!3m2!1sid!2sid!4v1730948431251!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section> -->
-
-      <!-- About -->
-      <!-- <section class="about" id="about">
-        <div class="container">
-          <div class="main-txt">
-            <h1>About <span>Us</span></h1>
-          </div>
-          <div class="row" style="margin-top: 50px;">
-            <div class="col-md6 py-3 py-md-6">
-              <div class="card">
-                <img src="asset/gambar8.jpg" alt="">
-              </div>
-            </div>
-
-            <div class="col-md-6 py-3 py-md-0">
-              <p>Ashoe adalah merek sepatu yang didirikan dengan misi untuk memberikan kenyamanan, gaya, dan kualitas terbaik kepada setiap pelanggan kami. Kami memahami bahwa sepatu bukan hanya sekadar pelengkap penampilan, tetapi juga bagian penting dalam keseharian yang mempengaruhi kenyamanan, performa, dan kepercayaan diri.
-
-                Sejak awal berdiri, kami berkomitmen untuk menggunakan bahan-bahan berkualitas tinggi, teknologi terkini, dan desain yang stylish. Setiap pasang sepatu Ashoe diproduksi dengan perhatian mendalam terhadap detail, sehingga menghasilkan produk yang tahan lama dan nyaman dipakai sepanjang hari.
-                
-                Kami menyediakan berbagai jenis sepatu, mulai dari sepatu olahraga, casual, hingga formal yang dirancang untuk berbagai kegiatan dan suasana. Dengan desain yang modern dan berkelas, sepatu Ashoe cocok untuk Anda yang mengutamakan kualitas tanpa mengorbankan gaya.
-                
-                Ashoe percaya bahwa setiap langkah membawa arti. Kami di sini untuk mendukung Anda melangkah lebih jauh, meraih mimpi, dan menjalani aktivitas dengan sepatu yang nyaman dan penuh gaya.</p>
-            </div>
-
-
-          </div>
-        </div>
-      </section> -->
-
-     
-
-      
       <!-- Team -->
-      <section id="team" class="team section ">
-
+      <section id="team" class="team section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Team</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-  
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
         <div class="container">
-  
           <div class="row gy-5">
-  
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div class="member-img">
-                <img src="asset/gambar8.jpg" class="img-fluid" alt="">
+                <img src="asset/gambar8.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="#"><i class="bi bi-twitter-x"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
@@ -420,13 +445,21 @@
               <div class="member-info text-center">
                 <h4>Walter White</h4>
                 <span>Chief Executive Officer</span>
-                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                <p>
+                  Aliquam iure quaerat voluptatem praesentium possimus unde
+                  laudantium vel dolorum distinctio dire flow
+                </p>
               </div>
-            </div><!-- End Team Member -->
-  
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div class="member-img">
-                <img src="asset/gambar1.jpg" class="img-fluid" alt="">
+                <img src="asset/gambar1.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="#"><i class="bi bi-twitter-x"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
@@ -437,13 +470,21 @@
               <div class="member-info text-center">
                 <h4>Sarah Jhonson</h4>
                 <span>Product Manager</span>
-                <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                <p>
+                  Labore ipsam sit consequatur exercitationem rerum laboriosam
+                  laudantium aut quod dolores exercitationem ut
+                </p>
               </div>
-            </div><!-- End Team Member -->
-  
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <div class="member-img">
-                <img src="asset/gambar6.jpg" class="img-fluid" alt="">
+                <img src="asset/gambar6.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="#"><i class="bi bi-twitter-x"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
@@ -454,13 +495,21 @@
               <div class="member-info text-center">
                 <h4>William Anderson</h4>
                 <span>CTO</span>
-                <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                <p>
+                  Illum minima ea autem doloremque ipsum quidem quas aspernatur
+                  modi ut praesentium vel tque sed facilis at qui
+                </p>
               </div>
-            </div><!-- End Team Member -->
-  
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <div class="member-img">
-                <img src="asset/gambar4.jpg" class="img-fluid" alt="">
+                <img src="asset/gambar4.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="#"><i class="bi bi-twitter-x"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
@@ -471,13 +520,21 @@
               <div class="member-info text-center">
                 <h4>Amanda Jepson</h4>
                 <span>Accountant</span>
-                <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                <p>
+                  Magni voluptatem accusamus assumenda cum nisi aut qui dolorem
+                  voluptate sed et veniam quasi quam consectetur
+                </p>
               </div>
-            </div><!-- End Team Member -->
-  
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
               <div class="member-img">
-                <img src="asset/gambar7.jpg" class="img-fluid" alt="">
+                <img src="asset/gambar7.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="#"><i class="bi bi-twitter-x"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
@@ -488,13 +545,21 @@
               <div class="member-info text-center">
                 <h4>Brian Doe</h4>
                 <span>Marketing</span>
-                <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+                <p>
+                  Qui consequuntur quos accusamus magnam quo est molestiae eius
+                  laboriosam sunt doloribus quia impedit laborum velit
+                </p>
               </div>
-            </div><!-- End Team Member -->
-  
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+            </div>
+            <!-- End Team Member -->
+
+            <div
+              class="col-lg-4 col-md-6 member"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <div class="member-img">
-                <img src="asset/gambar5.jpg" class="img-fluid" alt="">
+                <img src="asset/gambar5.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="#"><i class="bi bi-twitter-x"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
@@ -505,119 +570,189 @@
               <div class="member-info text-center">
                 <h4>Josepha Palas</h4>
                 <span>Operation</span>
-                <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+                <p>
+                  Sint sint eveniet explicabo amet consequatur nesciunt error
+                  enim rerum earum et omnis fugit eligendi cupiditate vel
+                </p>
               </div>
-            </div><!-- End Team Member -->
-  
+            </div>
+            <!-- End Team Member -->
           </div>
-  
         </div>
-  
-      </section><!-- /Team Section -->
-     
+      </section>
+      <!-- /Team Section -->
 
       <!-- Contact -->
       <section id="contact" class="contact section">
-
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-  
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <!-- End Section Title -->
+
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-  
           <div class="row gy-4">
-  
             <div class="col-lg-5">
-  
               <div class="info-wrap">
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
                     <h3>Address</h3>
-                    <p>Jalan Muding Mundeh. 24x Gatot Subroto Barat - Kerobokan, Kerobokan Kaja, Kuta Utara, Badung Regency, Bali 40361</p>
+                    <p>
+                      Jalan Muding Mundeh. 24x Gatot Subroto Barat - Kerobokan,
+                      Kerobokan Kaja, Kuta Utara, Badung Regency, Bali 40361
+                    </p>
                   </div>
-                </div><!-- End Info Item -->
-  
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
                     <h3>Call Us</h3>
                     <p>+62 897-0295-615</p>
                   </div>
-                </div><!-- End Info Item -->
-  
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                </div>
+                <!-- End Info Item -->
+
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
                     <h3>Email Us</h3>
                     <p>ashoe@gmail.com</p>
                   </div>
-                </div><!-- End Info Item -->
-  
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15778.223277672825!2d115.16809151738279!3d-8.638568300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238b0b8fe2c09%3A0xb2a8b4bb97b57214!2sTeman%20Baik%20Self%20Storage!5e0!3m2!1sid!2sid!4v1730948431251!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- End Info Item -->
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15778.223277672825!2d115.16809151738279!3d-8.638568300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238b0b8fe2c09%3A0xb2a8b4bb97b57214!2sTeman%20Baik%20Self%20Storage!5e0!3m2!1sid!2sid!4v1730948431251!5m2!1sid!2sid"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
-  
+
             <div class="col-lg-7">
-              <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <form
+                action=""
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <div class="row gy-4">
-  
                   <div class="col-md-6">
                     <label for="name-field" class="pb-2">Your Name</label>
-                    <input type="text" name="name" id="name-field" class="form-control" required="">
+                    <input
+                      type="text"
+                      name="name"
+                      id="name-field"
+                      class="form-control"
+                      required=""
+                    />
                   </div>
-  
+
                   <div class="col-md-6">
                     <label for="email-field" class="pb-2">Your Email</label>
-                    <input type="email" class="form-control" name="email" id="email-field" required="">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email-field"
+                      required=""
+                    />
                   </div>
-  
+
                   <div class="col-md-12">
                     <label for="subject-field" class="pb-2">Subject</label>
-                    <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject-field"
+                      required=""
+                    />
                   </div>
-  
+
                   <div class="col-md-12">
                     <label for="message-field" class="pb-2">Message</label>
-                    <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="10"
+                      id="message-field"
+                      required=""
+                    ></textarea>
                   </div>
-  
+
                   <div class="col-md-12 text-center">
                     <button type="submit">Send Message</button>
                   </div>
-  
                 </div>
               </form>
-            </div><!-- End Contact Form -->
-  
+            </div>
+            <!-- End Contact Form -->
           </div>
-  
         </div>
-  
       </section>
-    
 
       <!-- Footer -->
       <footer class="footer py-4 bg-dark text-light">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; ASHOE</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-light btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a class="link-light text-decoration-none me-3" href="#!">Privacy Policy</a>
-                    <a class="link-light text-decoration-none" href="#!">Terms of Use</a>
-                </div>
+          <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start">Copyright &copy; ASHOE</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+              <a
+                class="btn btn-light btn-social mx-2"
+                href="#!"
+                aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-light btn-social mx-2"
+                href="#!"
+                aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-light btn-social mx-2"
+                href="#!"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </div>
+            <div class="col-lg-4 text-lg-end">
+              <a class="link-light text-decoration-none me-3" href="#!"
+                >Privacy Policy</a
+              >
+              <a class="link-light text-decoration-none" href="#!"
+                >Terms of Use</a
+              >
+            </div>
+          </div>
         </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 
-      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
