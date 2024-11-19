@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Produk 1",
-        "price": 500,
+        "name": "NIKE JA 2 EP FOUNDATION NIGHT VISION",
+        "price": 1600000,
         "image": "asset/gambar1.jpg"
     },
     {
         "id": 2,
-        "name": "Produk 2",
-        "price": 500,
-        "image": "asset/gambar4.jpg"
+        "name": "ADIDAS D.O.N. ISSUE #4 TIME TO SHINE RED",
+        "price": 990000,
+        "image": "asset/gambar2.jpg"
     },
     {
         "id": 3,
-        "name": "Produk 3",
-        "price": 500,
-        "image": "asset/gambar5.jpg"
+        "name": "SK8-HI MEN'S SNEAKERS-BLACK",
+        "price": 770000,
+        "image": "asset/gambar3.jpg"
     },
     {
         "id": 4,
-        "name": "Produk 4",
-        "price": 500,
-        "image": "asset/gambar6.jpg"
+        "name": "PUMA ALL-PRO NITRO TEAM WHITE RED",
+        "price": 870000,
+        "image": "asset/gambar4.jpg"
     },
     {
         "id": 5,
-        "name": "Produk 5",
-        "price": 500,
-        "image": "asset/gambar7.jpg"
+        "name": "AIR JORDAN 38 PF LIGHT MARINE",
+        "price": 1250000,
+        "image": "asset/gambar5.jpg"
     },
     {
         "id": 6,
-        "name": "Produk 6",
-        "price": 500,
-        "image": "asset/gambar8.jpg"
+        "name": "ANTA SHOCK WAVE 5 PRO SPEED",
+        "price": 2280000,
+        "image": "asset/gambar6.jpg"
     }
 ]

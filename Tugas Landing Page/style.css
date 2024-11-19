@@ -11,7 +11,7 @@
 .home{
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(asset/snapedit_1732001367205.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(asset/home.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -419,12 +419,20 @@
 .checked{
     color: orange;
 }
+.fa-star-half-alt{
+  color: orange;
+}
 .star i{
     font-size: 15px;
 }
 .packages .card .card-body h6{
     font-size: 15px;
     text-align: center;
+}
+.packages .card .card-body h5{
+    font-size: 15px;
+    text-align: center;
+    color: #666;
 }
 
 .product-preview{
@@ -468,18 +476,17 @@
 .product-preview .preview h3{
   color: #444;
   padding: .5rem 0;
-  font-size: 2.5rem;
+  font-size: 1.4rem;
 }
 .product-preview .preview .star{
   padding: 1rem 0;
 }
 .product-preview .preview .star i{
   font-size: 1.3rem;
-  color: orange;
 }
 .product-preview .preview .star span{
   color: #999;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .product-preview .preview p{
   line-height: 1.5;
@@ -557,8 +564,29 @@
 .cartTab .btn .close{
   background-color: #eee;
 }
+.cartTab .listCart .item .name{
+  flex: 1; 
+  margin-right: 10px;
+  text-overflow: ellipsis;
+  padding-bottom: 6px;
+}
+.cartTab .listCart .item .quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+  min-width: 100px; 
+  margin-left: 50px;
+}
+.prdct {
+  display: flex;
+  flex-direction: column; 
+  flex: 1;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
 .cartTab .listCart .item img{
   width: 100%;
+  padding-left: 10px;
 }
 .cartTab .listCart .item{
   display: grid;

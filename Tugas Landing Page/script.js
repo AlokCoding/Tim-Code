@@ -94,15 +94,18 @@ const addCartToHTML = () => {
             newCart.dataset.id = cart.product_id;
             let positionProduct = listProducts.findIndex((value) => value.id == cart.product_id);
             let info = listProducts[positionProduct];
+            const hargaKali = info.price * cart.quantity;
             newCart.innerHTML = `
             <div class="image">
                 <img src="${info.image}" alt="">
               </div>
+              <div class="prdct">
               <div class="name">
                 ${info.name}
               </div>
               <div class="totalPrice">
-                ${info.price * cart.quantity + ("K")}
+                ${("RP. ")+ formatNumber(hargaKali)}
+              </div>
               </div>
               <div class="quantity">
                 <span class="minus"><</span>
@@ -159,5 +162,8 @@ const initApp = () => {
             addCartToHTML();
         }
     })
+}
+function formatNumber(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 }
 initApp();
